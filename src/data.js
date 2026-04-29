@@ -75,7 +75,7 @@ export const education = [
     field: '',
     institution: 'Mother Teresa Mission Higher Secondary School',
     period: '2020 – 2021',
-    score: '82.9%',
+    score: '93.9%',
     icon: '🏫',
     color: '#ff6584'
   }
