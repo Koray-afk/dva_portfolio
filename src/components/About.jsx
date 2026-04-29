@@ -4,7 +4,7 @@ const facts = [
   { icon: '🎯', label: 'Focus', value: 'Data Analysis & Visualization' },
   { icon: '🎓', label: 'Education', value: 'BTech AI — Nschood University' },
   { icon: '⚡', label: 'Stack', value: 'Python · Power BI · SQL' },
-  { icon: '📬', label: 'Email', value: 'abhiman.singh209@ms.christhood.edu.in' },
+  { icon: '📬', label: 'Email', value: 'abhiman.sinngh2024@nst.rishihood.edu.in' },
 ]
 
 export default function About() {
@@ -33,7 +33,7 @@ export default function About() {
               contribution, AI/ML trends, and transforming raw data into compelling, actionable narratives.
             </p>
             <div className="about__cta-row">
-              <a href="mailto:abhiman.singh209@ms.christhood.edu.in" id="about-contact-btn" className="btn btn-primary">
+              <a href="mailto:abhiman.sinngh2024@nst.rishihood.edu.in" id="about-contact-btn" className="btn btn-primary">
                 Let's Connect
                 <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>

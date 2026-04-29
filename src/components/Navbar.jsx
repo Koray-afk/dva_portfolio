@@ -48,7 +48,7 @@ export default function Navbar({ activeSection }) {
         </ul>
 
         <a
-          href="mailto:abhiman.singh209@ms.christhood.edu.in"
+          href="mailto:abhiman.sinngh2024@nst.rishihood.edu.in"
           className="btn btn-primary navbar__cta"
           id="navbar-hire-btn"
         >
