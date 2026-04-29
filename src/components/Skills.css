@@ -1,0 +1,85 @@
+.skills { overflow: hidden; }
+.skills__sub {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+.skills__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.skills__filter {
+  padding: 0.45rem 1rem;
+  border-radius: 50px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-main);
+}
+.skills__filter:hover { border-color: var(--accent-1); color: var(--accent-1); }
+.skills__filter.active {
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  border-color: transparent;
+  color: #fff;
+}
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.skills__card {
+  padding: 1.25rem 1.4rem;
+  animation: fadeInUp 0.4s ease both;
+}
+.skills__card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.skills__icon { font-size: 1.5rem; flex-shrink: 0; }
+.skills__info { flex: 1; }
+.skills__name { font-weight: 600; font-size: 0.95rem; margin-bottom: 0.1rem; }
+.skills__cat {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.skills__level {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.skills__bar-track {
+  height: 5px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.skills__bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(to right, var(--accent-1), var(--accent-2));
+  transition: width 1s ease;
+  position: relative;
+}
+.skills__bar-fill::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 30%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.3));
+  animation: shimmer 2s infinite;
+  background-size: 200% 100%;
+}
