@@ -52,7 +52,7 @@ export default function Navbar({ activeSection }) {
           className="btn btn-primary navbar__cta"
           id="navbar-hire-btn"
         >
-          Hire Me
+          AS
         </a>
 
         <button
