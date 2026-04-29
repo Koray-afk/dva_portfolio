@@ -53,7 +53,7 @@ export const education = [
     id: 'btech',
     degree: 'Bachelor of Technology',
     field: 'Artificial Intelligence',
-    institution: 'Nschood University',
+    institution: 'Newton School of Technology',
     period: '2024 – 2026',
     score: 'CGPA: 8.9 / 10.0',
     icon: '🎓',
